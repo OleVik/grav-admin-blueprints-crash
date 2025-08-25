@@ -1,0 +1,8 @@
+extends@:
+  type: options
+  context: blueprints://plugins/markdown-notices
+
+form:
+  fields:
+    enabled:
+      label: Modified label
