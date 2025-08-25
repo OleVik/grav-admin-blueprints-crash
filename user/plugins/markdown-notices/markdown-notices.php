@@ -34,6 +34,8 @@ class MarkdownNoticesPlugin extends Plugin
         return require __DIR__ . '/vendor/autoload.php';
     }
 
+    public $features = ['blueprints' => 10,];
+
     public function onMarkdownInitialized(Event $event)
     {
         $markdown = $event['markdown'];
